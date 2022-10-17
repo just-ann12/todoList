@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import TodoItem from "./components/TodoItem/index.js";
-import TodoData from "./components/TodoForm/index.js";
+import TodoItem from "./components/TodoItem";
+import TodoData from "./components/TodoData";
 import Header from "./components/Header";
 import { nanoid } from "nanoid";
 const App = () => {
